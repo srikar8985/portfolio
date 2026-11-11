@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srikar Chilukuri | ServiceNow Developer Portfolio</title>
+  <style>
+    :root {
+      --primary: #0366d6;
+      --primary-dark: #024ea4;
+      --text-main: #24292f;
+      --text-muted: #57606a;
+      --bg: #ffffff;
+      --card-bg: #f6f8fa;
+      --border: #d0d7de;
+      --tag-bg: #ddf4ff;
+      --tag-text: #0969da;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text-main);
+      background-color: var(--bg);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 30px;
+    }
+    h1 { margin: 0 0 6px 0; font-size: 2.3rem; color: #092c53; }
+    .title { font-size: 1.25rem; font-weight: 600; color: var(--primary); margin: 0 0 12px 0; }
+    .contact-row { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.95rem; }
+    .contact-row a { color: var(--primary); text-decoration: none; font-weight: 500; }
+    .contact-row a:hover { text-decoration: underline; }
+    h2 {
+      font-size: 1.35rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-top: 36px;
+      margin-bottom: 18px;
+      color: #1f2328;
+    }
+    .skill-category { margin-bottom: 12px; }
+    .skill-category strong { display: inline-block; width: 150px; color: var(--text-main); }
+    .tag {
+      display: inline-block;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin: 2px 4px 2px 0;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+    .card-header h3 { margin: 0; font-size: 1.15rem; color: #092c53; }
+    .card-header .date { font-size: 0.9rem; color: var(--text-muted); font-weight: 500; }
+    .subhead { font-weight: 600; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 10px; }
+    ul { margin: 8px 0 0 0; padding-left: 20px; }
+    li { margin-bottom: 6px; font-size: 0.94rem; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media (max-width: 600px) {
+      .grid-2 { grid-template-columns: 1fr; }
+      .skill-category strong { display: block; width: 100%; margin-bottom: 4px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CHILUKURI SRIKAR</h1>
+    <div class="title">ServiceNow Developer (ITSM & ITOM)</div>
+    <div class="contact-row">
+      <span>Email: <a href="mailto:srikarchilukuri.3@gmail.com">srikarchilukuri.3@gmail.com</a></span>
+      <span>Phone: +91 7989551728</span>
+      <span>GitHub: <a href="https://github.com/srikar8985" target="_blank">srikar8985</a></span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      ServiceNow Developer with 3 years of hands-on experience developing, configuring, and maintaining enterprise solutions across ITSM and ITOM. Proven track record in configuring Business Rules, Client Scripts, UI Policies, UI Actions, Script Includes, and complex Service Catalog workflows. Experienced in CMDB and Asset Management mapping, REST API integrations, and bi-weekly production releases.
+    </p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="card">
+      <div class="skill-category">
+        <strong>ServiceNow Modules:</strong>
+        <span class="tag">Incident Management</span>
+        <span class="tag">Problem Management</span>
+        <span class="tag">Change Management</span>
+        <span class="tag">Service Catalog</span>
+        <span class="tag">Knowledge Management</span>
+      </div>
+      <div class="skill-category">
+        <strong>Scripting & APIs:</strong>
+        <span class="tag">JavaScript</span>
+        <span class="tag">GlideRecord</span>
+        <span class="tag">GlideSystem</span>
+        <span class="tag">GlideAjax</span>
+        <span class="tag">REST API</span>
+        <span class="tag">SOAP</span>
+      </div>
+      <div class="skill-category">
+        <strong>Server & Client:</strong>
+        <span class="tag">Business Rules</span>
+        <span class="tag">Script Includes</span>
+        <span class="tag">Client Scripts</span>
+        <span class="tag">UI Policies</span>
+        <span class="tag">UI Actions</span>
+        <span class="tag">UI Pages / Macros</span>
+      </div>
+      <div class="skill-category">
+        <strong>Automation & ITOM:</strong>
+        <span class="tag">Flow Designer</span>
+        <span class="tag">Workflow Editor</span>
+        <span class="tag">CMDB & Discovery</span>
+        <span class="tag">Asset Management</span>
+        <span class="tag">Approval Workflows</span>
+      </div>
+      <div class="skill-category">
+        <strong>Administration & Tools:</strong>
+        <span class="tag">ServiceNow Studio</span>
+        <span class="tag">Update Sets</span>
+        <span class="tag">Import Sets & Transform Maps</span>
+        <span class="tag">ACLs & Roles</span>
+        <span class="tag">LDAP Integration</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>ServiceNow Developer | TCS</h3>
+        <span class="date">August 2023 – Present</span>
+      </div>
+
+      <div class="subhead">Project 1: West Lake</div>
+      <ul>
+        <li>Developed and maintained ServiceNow applications supporting core IT Service Management (ITSM) processes.</li>
+        <li>Configured Incident, Problem, and Change Management modules with custom Business Rules, Client Scripts, UI Policies, and reusable Script Includes.</li>
+        <li>Built Service Catalog items, Record Producers, and Catalog Client Scripts, automating processes with Flow Designer.</li>
+        <li>Integrated external systems via inbound/outbound REST APIs, leveraging Import Sets and Transform Maps for automated data transformation.</li>
+        <li>Loaded Assets and Configuration Items (CIs), mapped relationships between CIs and Assets, and imported CIs from external applications.</li>
+        <li>Handled bi-weekly production releases and
